@@ -1,3 +1,3 @@
-no = input("enter number : ")
-no = (list(map(str,no))) 
-print(no[::-1])
+word = input("enter word : ")
+word = (list(map(str,word))) 
+print(word[::-1])
