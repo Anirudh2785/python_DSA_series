@@ -6,4 +6,3 @@ while i <= 4 :
         j += 1
     print()
     i += 1 
-    
