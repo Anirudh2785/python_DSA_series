@@ -9,6 +9,10 @@ for i in range (1 , no):
     rem = num % i
     if rem == 0:
         div = int( num / i) 
-        print(i,",",div,end=" , ")
+        if i == div :
+            print(i,end=" , ")
+        else:
+            print(i,",",div,end=" , ")
+        
     else:
         print(end="")
