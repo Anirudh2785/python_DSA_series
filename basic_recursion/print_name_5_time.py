@@ -1,6 +1,5 @@
 def nam( n ):
-    i = 0
-    if i + 1 > n :
+    if n == 0 :
         return
     print ( "anirudh")
     nam(n - 1)
