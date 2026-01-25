@@ -9,7 +9,8 @@
 # main()
 
 class Solution:
-    # Recursive function to print numbers from current to n
+     # Recursive function to print numbers from current to n
+    
     def printNumbers(self, current, n):
         # Base case: if current exceeds n, stop recursion
         if current > n:
